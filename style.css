@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%),url(ronaldo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: red;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: larger;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.search {
+    width: 330px;
+    margin-left: 270px;
+    float: left;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.form {
+    width: 270px;
+    height: 480px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%);
+    position: absolute;
+    top: 180px;
+    left: 864px;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+    background-color: #34495E;
+}
+
+.bttn {
+    margin-top: 30px;
+    width: 270px;
+    height: 35px;
+    background: #3498DB;
+    border: none;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+    transition: 0.8s ease;
+}
+
+.btttn {
+    margin-top: 30px;
+    width: 270px;
+    height: 35px;
+    background: #6C3483 ;
+    border: none;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+    transition: 0.8s ease;
+}
+
+
+.text {
+    color: aliceblue;
+}
+
+.login{
+    color: white;
+}
+
+.link{
+    margin-top: 70px;
+}
+
+
+.log{
+    color: orange;
+    font-family: 'Times New Roman';
+}
